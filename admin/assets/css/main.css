@@ -1,0 +1,425 @@
+.text-center {
+    text-align: center;
+}
+
+/**
+* 01. 06. Content
+*/
+.kpi-main-class .csf-metabox .csf-content {
+    margin-left: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+
+    .kp-pfree-upgrade-header .demo-btn,
+    .kp-pfree-upgrade-footer .demo-btn,
+    .kp-pfree-upgrade-header .upgrade-btn,
+    .kp-pfree-upgrade-footer .upgrade-btn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .kp-pfree-upgrade-header .kp-pfree-col-lg-7 {
+        width: 100%;
+        float: none;
+    }
+
+    .kp-pfree-upgrade-header .kp-pfree-col-lg-5 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .kp-pfree-upgrade-header .kp-pfree-container {
+        text-align: center;
+    }
+}
+
+
+/* Help Page */
+div.kp-pfree-help .wp-badge {
+    border: none;
+    background: url(../images/icon-256.png) right no-repeat;
+    background-size: 110px 110px;
+    box-shadow: none;
+    height: auto;
+}
+
+.about-wrap.kp-pfree-help [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-wrap [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kp-pfree-help [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.kp-pfree-help .col {
+    margin-top: 40px;
+}
+
+.kp-pfree-help.about-wrap [class$="-col"] .col+.col {
+    margin-left: 0;
+}
+
+.kp-pfree-help.about-wrap .help-section[class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+
+div.kp-pfree-help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+
+div.kp-pfree-help .headline-feature.feature-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.kp-pfree-help .feature-section .kp-pfree-feature {
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+
+div.kp-pfree-help .feature-section .kp-pfree-feature h3 {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+div.kp-pfree-help .feature-section i.kp-pfree-font-icon {
+    font-size: 30px;
+    display: block;
+    color: #52b3d9;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section span.dashicons {
+    font-size: 22px;
+    color: #fff;
+    background-color: #52b3d9;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section {
+    margin-bottom: 40px;
+    margin-left: -2%;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section .kp-pfree-feature h3 {
+    margin-top: 0;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section .kp-pfree-feature p {
+    margin-bottom: 0;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section .kp-pfree-feature {
+    box-shadow: 0 0 10px 0 #dddddd;
+    margin: 4px;
+    border: 0 solid;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .feature-section.three-col .col {
+    min-width: 31.3%;
+    max-width: 31.3%;
+    margin-top: 20px;
+    padding-left: 2%;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features .kp-pfree-pro-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 26px;
+}
+
+div.kp-pfree-help .kp-pfree-upgrade-sticky-footer {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: calc(100% - 195px);
+    z-index: 9;
+    margin-left: -25px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 15px 0;
+    border-bottom: none;
+}
+
+div.kp-pfree-help .kp-pfree-pro-features h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+div.kp-pfree-help .kp-pfree-upgrade-sticky-footer h3 {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+div.kp-pfree-help .kp-pfree-upgrade-sticky-footer a.button {
+    margin: 0 8px;
+}
+
+/* Upgrade Page */
+.kp-pfree-upgrade>h1 {
+    font-size: 2.5em;
+    color: #444;
+    font-weight: 300;
+}
+
+.kp-pfree-upgrade>h1 span {
+    font-weight: 400;
+}
+
+.kp-pfree-upgrade .about-text {
+    margin-bottom: 0;
+}
+
+.kp-pfree-upgrade ul {
+    margin-top: 0;
+}
+
+.about-wrap.kp-pfree-upgrade .about-text {
+    min-height: 60px;
+}
+
+.about-wrap.kp-pfree-upgrade hr {
+    order: 0;
+    height: 0;
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .feature-section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .feature-section .kp-pfree-feature h3 {
+    margin-top: 0;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .feature-section .kp-pfree-feature p {
+    margin-bottom: 0;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .feature-section .kp-pfree-feature {
+    box-shadow: 0 0 10px 0 #ddd;
+    margin: 4px;
+    border: 0 solid;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .feature-section.three-col .col {
+    min-width: 32%;
+    max-width: 32%;
+    margin-top: 20px;
+    display: flex;
+    align-self: auto;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features .kp-pfree-pro-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 26px;
+}
+
+.kp-pfree-upgrade .kp-pfree-pro-features h2,
+.kp-pfree-upgrade .kp-pfree-promo-video-title {
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+.kp-pfree-join-community h2 {
+    font-size: 2em;
+}
+
+.kp-pfree-upgrade .kp-pfree-upgrade-sticky-footer h3 {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.kp-pfree-upgrade .kp-pfree-upgrade-sticky-footer a.button {
+    margin: 0 8px;
+}
+
+.kp-pfree-upgrade .tfree-upgrade-btn {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+.kp-pfree-upgrade .tfree-upgrade-btn a,
+.kp-pfree-upgrade a.tfree-upgrade-btn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.kp-pfree-upgrade .tfree-upgrade-btn a:focus {
+    outline: 0;
+}
+
+.kp-pfree-upgrade a.tfree-upgrade-btn,
+.kp-pfree-upgrade ul li.tfree-upgrade-btn:first-child a {
+    background: #52b3d9;
+    padding: 0 15px;
+    line-height: 46px;
+    display: block;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.kp-pfree-upgrade ul li.tfree-upgrade-btn:last-child a {
+    text-decoration: underline;
+}
+
+.kp-pfree-upgrade ul li.tfree-upgrade-btn a i {
+    margin-left: 4px;
+}
+
+.kp-pfree-upgrade ul li.tfree-upgrade-btn:last-child a i {
+    font-size: 14px;
+}
+
+.kp-pfree-upgrade a.tfree-upgrade-btn {
+    display: inline-block;
+}
+
+/* Review notice */
+#kp-pfree-review-notice {
+    padding: 15px 15px 15px 0;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 20px 20px 0 0;
+}
+
+#kp-pfree-review-notice .kp-pfree-plugin-icon {
+    width: 125px;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+}
+
+#kp-pfree-review-notice .kp-pfree-plugin-icon img {
+    max-width: 83px;
+    vertical-align: middle;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text {
+    overflow: hidden;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text h3 {
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text p {
+    margin: 10px 0 10px 0;
+    font-size: 13px;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text p.kp-pfree-review-actions {
+    margin: 10px 0 2px 0;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text .kp-pfree-review-actions a {
+    text-decoration: none;
+    margin-right: 8px;
+    color: #63a37b;
+    display: inline-block;
+    position: relative;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text .kp-pfree-review-actions a span {
+    padding-right: 2px;
+}
+
+#kp-pfree-review-notice .kp-pfree-notice-text .kp-pfree-review-actions a.button {
+    color: #fff;
+}
+
+/* Responsive CSS */
+@media (max-width: 960px) {
+    div.kp-pfree-help .kp-pfree-upgrade-sticky-footer {
+        width: calc(100%);
+    }
+}
+
+@media screen and (max-width: 782px) {
+    div.kp-pfree-help .three-col .col {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 500px) {
+    div.kp-pfree-help .wp-badge {
+        background-position-x: center;
+    }
+
+    div.kp-pfree-help .three-col .col {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 1em;
+    }
+}
+
+
+.bplugins-meta-readonly {
+    opacity: .6;
+}
+
+.csf-field.bplugins-meta-readonly::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.csf-field.bplugins-meta-readonly::after {
+    display: none;
+    content: "The option is available in the pro version only";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999;
+    font-size: 22px;
+    background: #673ab7;
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 3px;
+}
+
+.csf-field.bplugins-meta-readonly:hover::after {
+    display: block;
+}
